@@ -1,8 +1,8 @@
 "use client"
 
 const tools = {
-  languages: ["Python", "Rust", "C++", "TypeScript", "JavaScript"],
-  systems: ["LLVM", "WebAssembly", "PyO3", "PostgreSQL", "Redis"],
+  languages: ["Python", "Java","C/C++", "TypeScript", "JavaScript"],
+  systems: ["Svelte Js", "PostgreSQL", "Valkey","Next JS","Bun","Hono JS","NODE JS"],
   tools: ["Git", "Linux", "Docker", "Vscode"],
 }
 

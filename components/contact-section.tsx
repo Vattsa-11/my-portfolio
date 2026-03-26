@@ -6,10 +6,10 @@ import { ArrowUpRight } from "lucide-react"
 import emailjs from "@emailjs/browser"
 
 const links = [
-  { name: "GitHub", handle: "@magi8101", href: "https://github.com/magi8101" },
-  { name: "LinkedIn", handle: "Connect", href: "https://www.linkedin.com/in/magi-sharma/" },
-  { name: "Instagram", handle: "@shxrmx_.xo", href: "https://instagram.com/shxrmx_.xo" },
-  { name: "Email", handle: "Say hello", href: "mailto:sharmamagi0@gmail.com" },
+  { name: "GitHub", handle: "@Vattsa-11", href: "https://github.com/Vattsa-11" },
+  { name: "LinkedIn", handle: "Connect", href: "https://www.linkedin.com/in/srivattsa" },
+  { name: "Instagram", handle: "@v_a_t_t_s_a_11", href: "https://instagram.com/v_a_t_t_s_a_11" },
+  { name: "Email", handle: "Say hello", href: "mailto:srisu0306@gmail.com" },
 ]
 
 export function ContactSection() {

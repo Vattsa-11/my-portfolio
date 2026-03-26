@@ -10,49 +10,45 @@ import { cn } from "@/lib/utils"
 const projects = [
   {
     number: "01",
-    name: "pyexec",
-    subtitle: "Compiler",
-    description: "Educational Python JIT/AOT compiler with LLVM & WebAssembly backends.",
-    tech: "Python / LLVM / WASM",
-    tags: ["Python", "LLVM", "WASM"],
-    url: "https://github.com/magi8101/pyexec-compiler",
+    name: "Lead Automation Chatbot",
+    subtitle: "AI / Automation",
+    description:
+      "An intelligent chatbot that automates lead capture and follow-up workflows, reducing manual effort and improving conversion rates.",
+    tech: "Python / NLP / REST API",
+    tags: ["Python", "NLP", "API"],
+    url: "https://github.com/Vattsa-11",
   },
   {
     number: "02",
-    name: "velocix",
-    subtitle: "Framework",
-    description: "Rebuilding Starlette's core patterns to understand async Python web frameworks.",
-    tech: "Python / Async / ASGI",
-    tags: ["Python", "Async", "ASGI"],
-    url: "https://github.com/magi8101/velocix",
+    name: "Smart POS System",
+    subtitle: "Full Stack",
+    description:
+      "A point-of-sale system with smart inventory management, billing, and real-time sales analytics built for retail environments.",
+    tech: "Java / SQL / UI",
+    tags: ["Java", "SQL", "UI"],
+    url: "https://github.com/Vattsa-11",
   },
   {
     number: "03",
-    name: "toon-parser",
-    subtitle: "Parser",
-    description: "High-performance Python bindings for TOON format parser, built with PyO3 and Rust.",
-    tech: "Rust / Python / PyO3",
-    tags: ["Rust", "Python", "PyO3"],
-    url: "https://github.com/magi8101/toon-parser",
+    name: "CampusTix",
+    subtitle: "Web App",
+    description:
+      "A campus event ticketing platform enabling students to discover, register, and manage event tickets seamlessly.",
+    tech: "React / Node.js / MongoDB",
+    tags: ["React", "Node.js", "MongoDB"],
+    url: "https://github.com/Vattsa-11",
   },
   {
     number: "04",
-    name: "Justjit",
-    subtitle: "JIT Compiler",
-    description: "Stack-based bytecode compiler for Python using LLVM. Implementing 100+ opcodes.",
-    tech: "C++ / LLVM / Python",
-    tags: ["C++", "LLVM", "Python"],
-    url: "https://github.com/magi8101/Justjit",
+    name: "Gradient Lab",
+    subtitle: "Web Tool",
+    description:
+      "A modern, interactive color gradient generator with real-time preview, customizable stops, and one-click CSS/SVG export.",
+    tech: "HTML / CSS / JavaScript",
+    tags: ["JavaScript", "CSS", "HTML"],
+    url: "https://github.com/Vattsa-11",
   },
-  {
-    number: "05",
-    name: "PostPyro",
-    subtitle: "Database Driver",
-    description: "High-performance PostgreSQL driver for Python built with Rust. DB-API 2.0 compliant.",
-    tech: "Rust / Python / PostgreSQL",
-    tags: ["Rust", "Python", "PostgreSQL"],
-    url: "https://github.com/magi8101/PostPyro",
-  },
+
 ]
 
 // Extract all unique tags for filtering

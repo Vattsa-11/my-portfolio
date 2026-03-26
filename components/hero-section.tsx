@@ -37,8 +37,7 @@ export function HeroSection() {
           {/* Subtext positioned asymmetrically */}
           <div className="mt-12 md:mt-16 md:ml-[20vw] max-w-md">
             <p className="text-muted-foreground text-lg leading-relaxed">
-              Crafting compilers, parsers, and systems-level tools. I build things that make other developers more
-              productive.
+              Crafting design, website, and Framer. I build things that is inspiring.
             </p>
           </div>
         </div>

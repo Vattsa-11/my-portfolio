@@ -1,17 +1,17 @@
 "use client"
 
 const stats = [
-  { value: "65+", label: "Repositories" },
-  { value: "436", label: "Contributions" },
+  { value: "15", label: "Repositories" },
+  { value: "212", label: "Contributions" },
   { value: "3+", label: "Years" },
 ]
 
 const expertise = [
-  "Compiler Design",
-  "JIT Compilation",
-  "Async Programming",
-  "Parser Development",
-  "Systems Programming",
+  "Web Design",
+  "Framer",
+  "Distributed System",
+  "Web Dev",
+  "App dev",
   "WebAssembly",
 ]
 
@@ -23,11 +23,11 @@ export function AboutSection() {
         <div className="lg:col-span-4">
           <span className="text-xs font-mono text-muted-foreground uppercase tracking-widest">About</span>
           <h2 className="text-4xl md:text-5xl font-serif mt-4 leading-tight">
-            Building at
+            From chaos 
             <br />
-            the edge of
+             to 
             <br />
-            <span className="text-primary">abstraction</span>
+            <span className="text-primary">clean UI/UX</span>
           </h2>
         </div>
 
@@ -35,12 +35,10 @@ export function AboutSection() {
         <div className="lg:col-span-8 lg:pl-12">
           <div className="space-y-8 text-lg text-muted-foreground leading-relaxed max-w-2xl">
             <p>
-              I'm Magi Sharma, a 2nd year Computer Science student at SRM KTR. My work sits at the intersection of low-level
-              systems and developer tooling.
+              I'm Srivattsa, a 2nd year Computer Science student at SRM KTR. My work sits at creating clean ui and distributed systems.
             </p>
             <p>
-              I believe in learning by rebuilding. Most of my projects are explorations into how things work beneath the
-              abstractions we use daily — from JIT compilers to web framework internals.
+              I believe in learning by rebuilding. Most of my projects are explorations and inspiration.
             </p>
           </div>
 

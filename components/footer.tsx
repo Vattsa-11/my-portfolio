@@ -7,9 +7,9 @@ export function Footer() {
       <div className="grid md:grid-cols-3 gap-8 mb-8">
         <div>
           <Link href="/" className="text-sm font-mono uppercase tracking-widest text-foreground">
-            Magi Sharma
+            Srivattsa R
           </Link>
-          <p className="text-sm text-muted-foreground mt-2">Developer & Builder</p>
+          <p className="text-sm text-muted-foreground mt-2">Developer</p>
         </div>
         
         <div>
@@ -28,15 +28,15 @@ export function Footer() {
           <span className="text-xs font-mono text-muted-foreground uppercase tracking-widest block mb-4">
             Recent Activity
           </span>
-          <GitHubActivity username="magi8101" limit={4} />
+          <GitHubActivity username="Vattsa-11" limit={4} />
         </div>
       </div>
       
       <div className="pt-8 border-t border-border flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-        <p className="text-sm text-muted-foreground font-mono">© {new Date().getFullYear()} Magi Sharma</p>
+        <p className="text-sm text-muted-foreground font-mono">© {new Date().getFullYear()} Srivattsa R</p>
         <div className="flex gap-6">
-          <a href="https://github.com/magi8101" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-foreground transition-colors">GitHub</a>
-          <a href="https://www.linkedin.com/in/magi-sharma/" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-foreground transition-colors">LinkedIn</a>
+          <a href="https://github.com/Vattsa-11" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-foreground transition-colors">GitHub</a>
+          <a href="https://www.linkedin.com/in/srivattsa" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-foreground transition-colors">LinkedIn</a>
           <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-foreground transition-colors">Twitter</a>
         </div>
       </div>

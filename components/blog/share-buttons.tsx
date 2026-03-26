@@ -9,7 +9,7 @@ interface ShareButtonsProps {
 }
 
 // Base URL for sharing - use environment variable or fallback
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://magi-portfolio.vercel.app"
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL 
 
 // Custom icons for platforms not in lucide
 function WhatsAppIcon({ className }: { className?: string }) {
