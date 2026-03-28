@@ -13,38 +13,38 @@ const ibmPlexMono = IBM_Plex_Mono({ subsets: ["latin"], weight: ["400", "500"], 
 
 export const metadata: Metadata = {
   metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL || "https://magi-portfolio.vercel.app"
+    process.env.NEXT_PUBLIC_SITE_URL || "https://vattsa-portfolio.vercel.app/"
   ),
   title: {
-    default: "Magi Sharma — Developer",
-    template: "%s | Magi Sharma",
+    default: "Srivattsa — Developer",
+    template: "%s | Srivattsa",
   },
   description: "Building compilers, systems, and open-source tools.",
   generator: 'my-portfolio',
-  authors: [{ name: "Magi Sharma", url: "https://github.com/magi8101" }],
-  creator: "Magi Sharma",
+  authors: [{ name: "Srivattsa", url: "https://github.com/Vattsa-11" }],
+  creator: "Srivattsa",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://magi-portfolio.vercel.app",
-    siteName: "Magi Sharma",
-    title: "Magi Sharma — Developer",
-    description: "Building compilers, systems, and open-source tools.",
+    url: "https://vattsa-portfolio.vercel.app/",
+    siteName: "Srivattsa",
+    title: "Srivattsa — Developer",
+    description: "Building Design Apps, Websites and open-source tools.",
     images: [
       {
-        url: "https://magi-portfolio.vercel.app/api/og?title=Magi%20Sharma&description=Developer",
+        url: "https://vattsa-portfolio.vercel.app/api/og?title=Vattsa%20Sharma&description=Developer",
         width: 1200,
         height: 630,
-        alt: "Magi Sharma - Developer",
+        alt: "srivattsa - Developer",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Magi Sharma — Developer",
-    description: "Building compilers, systems, and open-source tools.",
-    images: ["https://magi-portfolio.vercel.app/api/og?title=Magi%20Sharma&description=Developer"],
-    creator: "@magi8101",
+    title: "srivattsa — Developer",
+    description: "Building Design Apps, Websites and open-source tools.",
+    images: ["https://vattsa-portfolio.vercel.app/api/og?title=Magi%20Sharma&description=Developer"],
+    creator: "@Vattsa-11",
   },
   robots: {
     index: true,
@@ -71,7 +71,7 @@ export default function RootLayout({
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
-          enableSystem
+          enableSystem={false}
           disableTransitionOnChange
         >
           {children}

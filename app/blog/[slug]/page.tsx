@@ -26,18 +26,18 @@ interface Props {
 export async function generateMetadata({ params }: Props) {
   const { slug } = await params
   const post = await getPostBySlug(slug)
-  
+
   if (!post) {
     return {
       title: "Post Not Found",
     }
   }
-  
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://magi-portfolio.vercel.app"
+
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL
   const ogImageUrl = post.og_image || `${baseUrl}/api/og?title=${encodeURIComponent(post.title)}&description=${encodeURIComponent(post.excerpt || "")}&type=blog`
-  
+
   return {
-    title: `${post.meta_title || post.title} - Magi Sharma`,
+    title: `${post.meta_title || post.title} - Srivattsa`,
     description: post.meta_description || post.excerpt || undefined,
     openGraph: {
       title: post.meta_title || post.title,
@@ -57,7 +57,7 @@ export async function generateMetadata({ params }: Props) {
 export default async function BlogPostPage({ params }: Props) {
   const { slug } = await params
   const post = await getPostBySlug(slug)
-  
+
   if (!post) {
     notFound()
   }
@@ -68,7 +68,7 @@ export default async function BlogPostPage({ params }: Props) {
     <main className="min-h-screen bg-background">
       <Navigation />
       <ReadingProgress slug={slug} />
-      
+
       <article className="pt-24 sm:pt-32 pb-16 sm:pb-24 px-4 sm:px-6 md:px-12">
         <div className="max-w-3xl mx-auto">
           <Link
@@ -78,7 +78,7 @@ export default async function BlogPostPage({ params }: Props) {
             <ArrowLeft className="w-4 h-4" />
             Back to blog
           </Link>
-          
+
           <header className="mb-8 sm:mb-12">
             {tags && tags.length > 0 && (
               <div className="flex flex-wrap gap-2 mb-4 sm:mb-6">
@@ -92,11 +92,11 @@ export default async function BlogPostPage({ params }: Props) {
                 ))}
               </div>
             )}
-            
+
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif leading-tight">
               {title}
             </h1>
-            
+
             <div className="flex flex-wrap gap-4 sm:gap-6 mt-6 sm:mt-8 text-xs sm:text-sm font-mono text-muted-foreground">
               {published_at && (
                 <time dateTime={published_at}>
@@ -110,7 +110,7 @@ export default async function BlogPostPage({ params }: Props) {
               <ActiveReaders slug={slug} />
             </div>
           </header>
-          
+
           {cover_url && (
             <div className="mb-8 sm:mb-12">
               {cover_type === "image" && (
@@ -138,9 +138,9 @@ export default async function BlogPostPage({ params }: Props) {
               )}
             </div>
           )}
-          
+
           <PostContent content={content} />
-          
+
           {/* Like button and share */}
           <div className="mt-12 pt-8 border-t border-border">
             <div className="flex flex-wrap items-center justify-between gap-4">
@@ -151,12 +151,12 @@ export default async function BlogPostPage({ params }: Props) {
               <ShareButtons title={title} slug={slug} />
             </div>
           </div>
-          
+
           <PopularPosts currentSlug={slug} limit={3} />
-          
+
           <GiscusComments slug={slug} />
         </div>
-        
+
         <TableOfContents content={content} />
       </article>
 

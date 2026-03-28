@@ -1,4 +1,4 @@
-# Magi Sharma - Portfolio Website
+# Srivattsa - Portfolio Website
 
 A modern, minimalist portfolio website built with Next.js 16, featuring a full-featured blog system powered by Supabase.
 
@@ -41,7 +41,7 @@ A modern, minimalist portfolio website built with Next.js 16, featuring a full-f
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/magi8101/portfolio-website.git
+   git clone https://github.com/Vattsa-11/portfolio-website.git
    cd portfolio-website
    ```
 
@@ -58,11 +58,7 @@ A modern, minimalist portfolio website built with Next.js 16, featuring a full-f
    NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
    NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
 
-   # EmailJS
-   NEXT_PUBLIC_EMAILJS_SERVICE_ID=your_service_id
-   NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=your_template_id
-   NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=your_public_key
-   ```
+ 
 
 4. **Set up Supabase**
    
@@ -145,7 +141,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## Contact
 
-**Magi Sharma**
-- GitHub: [@magi8101](https://github.com/magi8101)
-- LinkedIn: [Magi Sharma](https://www.linkedin.com/in/magi-sharma/)
-- Email: sharmamagi0@gmail.com
+**Srivattsa**
+- GitHub: [@Vattsa-11](https://github.com/Vattsa-11)
+- LinkedIn: [Srivattsa](https://www.linkedin.com/in/srivattsa)
+- Email: srisu0306@gmail.com

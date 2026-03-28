@@ -31,7 +31,7 @@ export function HeroSection() {
           {/* Large headline */}
           <h1 className="text-[12vw] md:text-[10vw] lg:text-[8vw] font-serif leading-[0.85] tracking-tight">
             <span className="block">Developer</span>
-            <span className="block text-primary">&amp; Builder</span>
+            <span className="block text-primary">&amp; Designer</span>
           </h1>
 
           {/* Subtext positioned asymmetrically */}

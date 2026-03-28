@@ -9,8 +9,8 @@ import { BlogSearch } from "@/components/blog/blog-search"
 export const dynamic = "force-dynamic"
 
 export const metadata = {
-  title: "Blog - Magi Sharma",
-  description: "Technical articles about compilers, systems programming, and developer tools.",
+  title: "Blog - Srivattsa",
+  description: "Technical articles about Web dev , Design and developer tools.",
 }
 
 export default async function BlogPage() {
@@ -19,7 +19,7 @@ export default async function BlogPage() {
   return (
     <main className="min-h-screen bg-background">
       <Navigation />
-      
+
       <section className="pt-24 sm:pt-32 pb-16 sm:pb-24 px-4 sm:px-6 md:px-12">
         <div className="mb-10 sm:mb-16">
           <span className="text-xs font-mono text-muted-foreground uppercase tracking-widest">
@@ -28,10 +28,10 @@ export default async function BlogPage() {
           <h1 className="text-4xl sm:text-5xl md:text-7xl font-serif mt-4 leading-tight">
             Writing about
             <br />
-            <span className="text-primary">code and systems</span>
+            <span className="text-primary">Web dev , Design and developer tools.</span>
           </h1>
           <p className="text-muted-foreground text-base sm:text-lg mt-6 sm:mt-8 max-w-2xl">
-            Technical deep-dives into compilers, parsers, and the tools I build.
+            Technical deep-dives into Web dev , Design and developer tools.
             Sharing what I learn as I explore how things work beneath the abstractions.
           </p>
         </div>
@@ -58,7 +58,7 @@ export default async function BlogPage() {
                       {String(index + 1).padStart(2, "0")}
                     </span>
                   </div>
-                  
+
                   <div className="md:col-span-7">
                     <h2 className="text-xl sm:text-2xl md:text-3xl font-serif group-hover:text-primary transition-colors">
                       {post.title}
@@ -69,7 +69,7 @@ export default async function BlogPage() {
                       </p>
                     )}
                   </div>
-                  
+
                   <div className="md:col-span-4 flex flex-wrap gap-3 sm:gap-4 md:justify-end items-start">
                     {post.published_at && (
                       <span className="text-xs sm:text-sm text-muted-foreground font-mono">
@@ -83,7 +83,7 @@ export default async function BlogPage() {
                     )}
                   </div>
                 </div>
-                
+
                 {post.tags && post.tags.length > 0 && (
                   <div className="flex flex-wrap gap-2 mt-4 md:ml-[calc(8.333%+2rem)]">
                     {post.tags.map((tag) => (

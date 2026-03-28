@@ -29,7 +29,7 @@ export function Navigation() {
       <header className="fixed top-0 left-0 right-0 z-50 mix-blend-difference">
         <nav className="px-6 md:px-12 py-6 flex items-center justify-between">
           <Link href="/" className="text-white text-sm font-mono uppercase tracking-widest">
-            Magi
+            Srivattsa
           </Link>
 
           {/* Desktop Navigation */}

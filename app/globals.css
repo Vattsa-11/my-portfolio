@@ -3,7 +3,7 @@
 
 @custom-variant dark (&:is(.dark *));
 
-/* Light mode - clean, minimal with burnt orange accent */
+/* Light mode - clean, minimal with glacier blue accent */
 :root {
   --background: oklch(0.98 0.005 90);
   --foreground: oklch(0.15 0.01 250);
@@ -11,19 +11,19 @@
   --card-foreground: oklch(0.15 0.01 250);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.15 0.01 250);
-  --primary: oklch(0.58 0.16 45);
+  --primary: #87c0cf;
   --primary-foreground: oklch(0.98 0.005 90);
   --secondary: oklch(0.94 0.01 250);
   --secondary-foreground: oklch(0.35 0.01 250);
   --muted: oklch(0.94 0.005 250);
   --muted-foreground: oklch(0.45 0.01 250);
-  --accent: oklch(0.58 0.16 45);
+  --accent: #87c0cf;
   --accent-foreground: oklch(0.98 0.005 90);
   --destructive: oklch(0.55 0.2 25);
   --destructive-foreground: oklch(0.98 0.005 90);
   --border: oklch(0.88 0.01 250);
   --input: oklch(0.94 0.005 250);
-  --ring: oklch(0.58 0.16 45);
+  --ring: #87c0cf;
   --chart-1: oklch(0.58 0.16 45);
   --chart-2: oklch(0.55 0.1 200);
   --chart-3: oklch(0.6 0.12 150);
@@ -40,7 +40,7 @@
   --sidebar-ring: oklch(0.58 0.16 45);
 }
 
-/* Dark mode - warm charcoal with single burnt orange accent */
+/* Dark mode - warm charcoal with single glacier blue accent */
 .dark {
   --background: oklch(0.13 0.01 250);
   --foreground: oklch(0.92 0.01 90);
@@ -48,19 +48,19 @@
   --card-foreground: oklch(0.92 0.01 90);
   --popover: oklch(0.13 0.01 250);
   --popover-foreground: oklch(0.92 0.01 90);
-  --primary: oklch(0.68 0.14 45);
+  --primary: #87c0cf;
   --primary-foreground: oklch(0.13 0.01 250);
   --secondary: oklch(0.22 0.01 250);
   --secondary-foreground: oklch(0.75 0.01 90);
   --muted: oklch(0.2 0.01 250);
   --muted-foreground: oklch(0.55 0.01 250);
-  --accent: oklch(0.68 0.14 45);
+  --accent: #87c0cf;
   --accent-foreground: oklch(0.13 0.01 250);
   --destructive: oklch(0.55 0.2 25);
   --destructive-foreground: oklch(0.92 0.01 90);
   --border: oklch(0.25 0.01 250);
   --input: oklch(0.2 0.01 250);
-  --ring: oklch(0.68 0.14 45);
+  --ring: #87c0cf;
   --chart-1: oklch(0.68 0.14 45);
   --chart-2: oklch(0.55 0.1 200);
   --chart-3: oklch(0.6 0.12 150);
@@ -132,7 +132,7 @@ html {
 }
 
 ::selection {
-  background: oklch(0.68 0.14 45 / 0.3);
+  background: #87c0cf;
   color: oklch(0.13 0.01 250);
 }
 

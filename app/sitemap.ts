@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://magi-portfolio.vercel.app'
+  const baseUrl = 'https://vattsa-portfolio.vercel.app'
 
   return [
     {

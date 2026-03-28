@@ -3,7 +3,7 @@ import { getAllPosts } from "@/lib/blog"
 import { format } from "date-fns"
 
 export const metadata = {
-  title: "Admin Dashboard - Magi Sharma",
+  title: "Admin Dashboard - Srivattsa",
 }
 
 export default async function AdminPage() {

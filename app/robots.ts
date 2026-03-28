@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/admin/', '/auth/'],
     },
-    sitemap: 'https://magi-portfolio.vercel.app/sitemap.xml',
+    sitemap: 'https://vattsa-portfolio.vercel.app/sitemap.xml',
   }
 }
